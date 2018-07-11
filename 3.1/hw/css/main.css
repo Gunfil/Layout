@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-div, p, input, button, form {
+div, p, input, button, form, input, textarea, button {
     box-sizing: border-box;
 }
 
@@ -13,6 +13,10 @@ div, p, input, button, form {
     content: '';
     display: table;
     width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
 
 /*---------------------------------*/
@@ -30,9 +34,8 @@ div, p, input, button, form {
 #header {
     background: #22a2ec;
     color: #fff;
-    padding: 30px 45px;
-    margin-bottom: 42px;
-    /*box-shadow: 0 0 40px black;*/
+    padding: 30px 0;
+    margin-bottom: 46px;
 }
 
 .logo {
@@ -74,20 +77,128 @@ div, p, input, button, form {
     border: 1px solid #fff;
 }
 
-#first{
-    margin-left: 45px;
+.container {
+    width: 1194px;
+    margin: 0 auto;
 }
 
 .card {
     width: 358px;
-    height: 256px;
-    border: 1px solid;
+    height: 246px;
     padding: 30px 30px;
     float: left;
     margin-right: 57px;
+    margin-top: 32px;
+}
+
+.card-left {
+    border: 1px solid #d6d6d6;
+}
+
+.card-center {
+    border: 5px solid #d6d6d6;
+}
+
+.card-right {
+    box-shadow: 0 0 29px rgba(14,14,14,0.4);
+    border-radius: 5px;
+    margin-right: 0;
+    padding-top: 35px;
 }
 
 .card-title {
     font-size: 18px;
     font-weight: bold;
+}
+
+.card-text {
+    margin-top: 20px;
+    color: #272c2f;
+}
+
+.read {
+    margin-top: 9px;
+}
+
+.read-a {
+    color: #22a2ec;
+    font-weight: bold;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+.input {
+    width: 240px;
+    height: 46px;
+    padding: 16px 10px 17px 23px;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.message {
+    width: 358px;
+    height: 123px;
+    padding: 16px 10px 0 23px;
+}
+
+.form-send {
+    margin-top: 36px;
+    float: left;
+}
+
+.form-button {
+    background: #ebce0d;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: 0;
+    text-align: center;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.form-text {
+    color: #84898d;
+}
+
+.info {
+    width: 772px;
+    height: 302px;
+    float: right;
+    background: #184c6b;
+    margin-top: 36px;
+    border-radius: 10px;
+}
+
+.info-textblock {
+    width: 417px;
+    padding: 38px 0 45px 40px;
+    float: left;
+}
+
+.info-textblock-title {
+    font-size: 21px;
+    font-weight: bold;
+    color: #c0ddee;
+}
+
+.info-textblock-text {
+    width: 317px;
+    margin-top: 18px;
+    color: #c0ddee;
+    letter-spacing: 0.4px;
+    line-height: 1.4;
+}
+
+.info-imageblock {
+    margin-top: 87px;
+}
+
+.info-imageblcok-text {
+    color: #c0ddee;
+    margin-top: 5px;
+}
+
+footer {
+    background: #22a2ec;
+    height: 71px;
 }
