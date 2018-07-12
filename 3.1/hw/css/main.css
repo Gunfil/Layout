@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-div, p, input, button, form, input, textarea, button {
+div, p, input, button, form, input, textarea, button, a {
     box-sizing: border-box;
 }
 
@@ -16,6 +16,11 @@ div, p, input, button, form, input, textarea, button {
 }
 
 h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    padding: 0;
     margin: 0;
 }
 
@@ -65,16 +70,6 @@ h1, h2, h3 {
     font-size: 18px;
     font-weight: bold;
     float: right;
-}
-
-.ghost-button {
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #fff;
 }
 
 .container {
@@ -133,6 +128,7 @@ h1, h2, h3 {
     width: 240px;
     height: 46px;
     padding: 16px 10px 17px 23px;
+    margin-top: 12px;
     font-family: Arial, Tahoma, sans-serif;
 }
 
@@ -140,11 +136,16 @@ h1, h2, h3 {
     width: 358px;
     height: 123px;
     padding: 16px 10px 0 23px;
+    margin-top: 12px;
+}
+
+.description-content {
+    margin-top: 30px;
 }
 
 .form-send {
-    margin-top: 36px;
     float: left;
+    margin-top: -6px;
 }
 
 .form-button {
@@ -154,9 +155,11 @@ h1, h2, h3 {
     border: 0;
     text-align: center;
     font-family: Arial, Tahoma, sans-serif;
+    margin-top: 24px;
 }
 
 .form-text {
+    margin: 22px 0 41px;
     color: #84898d;
 }
 
@@ -165,40 +168,74 @@ h1, h2, h3 {
     height: 302px;
     float: right;
     background: #184c6b;
-    margin-top: 36px;
     border-radius: 10px;
 }
 
-.info-textblock {
-    width: 417px;
-    padding: 38px 0 45px 40px;
-    float: left;
-}
-
-.info-textblock-title {
+.info-title {
     font-size: 21px;
     font-weight: bold;
     color: #c0ddee;
+    padding: 38px 0 18px 40px;
 }
 
 .info-textblock-text {
     width: 317px;
-    margin-top: 18px;
     color: #c0ddee;
     letter-spacing: 0.4px;
-    line-height: 1.4;
+    line-height: 1.41;
+    margin: 0 60px 0 40px;
+    float: left;
 }
 
 .info-imageblock {
-    margin-top: 87px;
+    margin-top: 5px;
+    float: left;
 }
 
 .info-imageblcok-text {
     color: #c0ddee;
     margin-top: 5px;
+    float: left;
 }
 
 footer {
     background: #22a2ec;
-    height: 71px;
+    padding: 15px 0;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 13px;
+    float: left;
+    margin: 10px 42px 0 0;
+}
+
+.footer-button-one {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin: 1px 66px 0 0;
+    float: left;
+}
+
+.footer-button-two {
+    border-radius: 20px;
+}
+
+.footer-text-block {
+    background: #fff;
+    color: #22a2ec;
+    font-size: 12px;
+    padding: 15px 23px 13px;
+    float: left;
+    border-radius: 5px;
+}
+
+.footer-text-right {
+    float: right;
+    margin: 13px 0 0 0;
 }
