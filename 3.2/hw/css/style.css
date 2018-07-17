@@ -4,9 +4,21 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15px;
 }
+
+div, p, input, button, form, input, textarea, button, a {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+/*  Header  */
 
 header {
     background: #4e8598;
@@ -15,4 +27,123 @@ header {
 .container {
     width: 940px;
     margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo__image {
+    margin-top: 54px;
+}
+
+.offer {
+    text-align: center;
+    margin-top: 184px;
+}
+
+.offer__title {
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.34em;
+}
+
+.button {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 19px 38px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+    display: inline-block;
+}
+
+.offer__image {
+    display: block;
+    margin: 177px auto 0;
+    padding-bottom: 58px;
+}
+
+/*  section Description*/
+
+.title {
+    text-align: center;
+    color: #2f383b;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.about {
+    margin-top: 59px;
+}
+
+.about__mission {
+    float: left;
+    width: 470px;
+}
+
+.about__merits {
+    float: left;
+    width: 470px;
+    padding-left: 15px;
+}
+
+.about__line {
+    color: #2f383b;
+    text-transform: uppercase;
+}
+
+.about__line:after {
+    content: '';
+    display: block;
+    background: #4e8598;
+    width: 72px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.about__text {
+    width: 395px;
+    margin-top: 27px;
+    color: #2f383b;
+    line-height: 1.4em;
+    letter-spacing: 0.03em;
+}
+
+.about__text_margin-top {
+    margin-top: 32px;
+}
+
+.about__list {
+    margin-top: 25px;
+}
+
+.about__list-item {
+    margin-top: 20px;
+    display: table;
+}
+
+.about__item-image {
+    width: 40px;
+    margin-right: 18px;
+    text-align: center;
+    float: left;
+}
+
+.about__item-name {
+    color: #4e8598;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin: 7px 30px 7px 0;
+}
+
+.about__item-description {
+    color: #b6b8b8;
+    float: left;
+    margin: 7px 0;
 }
