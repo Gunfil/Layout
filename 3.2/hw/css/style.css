@@ -70,10 +70,13 @@ header {
 
 /*  section Description*/
 
+#description {
+    margin-top: 80px;
+}
+
 .title {
     text-align: center;
     color: #2f383b;
-    margin-top: 80px;
     text-transform: uppercase;
 }
 
@@ -146,4 +149,95 @@ header {
     color: #b6b8b8;
     float: left;
     margin: 7px 0;
+}
+
+/*  section Advantages*/
+
+#advantages {
+    margin-top: 150px;
+}
+
+.reasons {
+    margin-top: 65px;
+}
+
+.reasons__list {
+
+}
+
+.reasons__item {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+.reasons__circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.reasons__number {
+    font-size: 30px;
+    color: #2f383b;
+    margin-top: 17px;
+}
+
+.reasons__title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2f383b;
+    margin-top: 18px;
+}
+
+.reasons__circle:hover {
+    background: #2f383b;
+}
+
+.reasons__circle:hover .reasons__number {
+    color: white;
+}
+
+.opinion {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.opinion__text {
+    width: 411px;
+    font-size: 14px;
+    color: #2f383b;
+    margin: 22px auto 0
+}
+
+.button-dark {
+    background: #2f383b;
+    margin-top: 27px;
+}
+
+/*  Footer  */
+
+#footer {
+    margin-top: 75px;
+    padding: 50px 0;
+    background: #2f383b;
+}
+
+.note__text {
+    font-size: 13px;
+    color: white;
+    float: left;
+}
+
+.note__text:first-child {
+    margin-right: 240px;
+}
+
+.note__text:last-child {
+    border-bottom: 1px white dotted;
+    padding-bottom: 3px;
+    float: right;
 }
