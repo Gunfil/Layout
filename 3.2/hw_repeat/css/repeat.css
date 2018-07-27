@@ -51,12 +51,10 @@ div, p, input, button, form, input, textarea, button, a {
 }
 
 .button {
-    color: white;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
     padding: 18px 36px;
-    border: 1px solid white;
     border-radius: 30px;
     display: inline-block;
     text-transform: uppercase;
@@ -64,6 +62,8 @@ div, p, input, button, form, input, textarea, button, a {
 
 .offer__button {
     margin-top: 21px;
+    color: white;
+    border: 1px solid white;
 }
 
 .offer__image {
@@ -146,4 +146,88 @@ div, p, input, button, form, input, textarea, button, a {
 
 .advantages-title-margin {
     margin-top: 152px;
+}
+
+.reasons {
+    margin-top: 67px;
+}
+
+.reasons__item {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+.reasons__circle {
+    border-radius: 50%;
+    border: 1px solid #2f383b;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.reasons__digit {
+    font-size: 30px;
+    color: #2f383b;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.reasons__name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2f383b;
+    margin-top: 18px;
+}
+
+.reasons__circle:hover {
+    background: #2f383b;
+}
+
+.reasons__circle:hover .reasons__digit {
+    color: white;
+}
+
+.opinion {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.opinion__text {
+    width: 415px;
+    font-size: 14px;
+    color: #2f383b;
+    margin: 22px auto 0;
+    line-height: 1.7em;
+}
+
+.opinion__button {
+    margin-top: 25px;
+    color: white;
+    border: 1px solid #2f383b;
+    background: #2f383b;
+}
+
+#footer {
+    margin-top: 75px;
+    background: #2f383b;
+}
+
+.footer__text {
+    padding: 50px 0;
+    color: #9fa2a3;
+    font-size: 13px;
+    float: left;
+}
+
+.footer__text:first-child {
+    margin-right: 240px;
+}
+
+.footer__text:last-child {
+    color: #ebebec;
+    border-bottom: 1px dotted #ebebec;
+    float: right;
+    padding-bottom: 3px;
 }
