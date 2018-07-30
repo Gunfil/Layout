@@ -165,13 +165,13 @@ div, p, input, button, form, input, textarea, button, a {
     width: 75px;
     height: 75px;
     margin: 0 auto;
+    text-align: center;
+    line-height: 75px;
 }
 
 .reasons__digit {
     font-size: 30px;
     color: #2f383b;
-    text-align: center;
-    margin-top: 17px;
 }
 
 .reasons__name {

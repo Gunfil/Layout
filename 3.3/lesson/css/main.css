@@ -1,0 +1,45 @@
+.wrap {
+    background: darkblue;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.field {
+    background: blue;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    padding: 40px;
+    z-index: 4;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.block2 {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+header {
+    background: red;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
