@@ -2,16 +2,25 @@
     background: darkblue;
     height: 600px;
     padding-top: 50px;
+    font-family: 'Roboto Slab', Tahoma, sans-serif;
 }
 
 .field {
     background: blue;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     position: relative;
     color: white;
     padding: 40px;
     z-index: 4;
+    transition: all 1s ease;
+    border-radius: 13px;
+    max-width: 1000px;
+}
+
+.field:hover {
+    background: red;
+    width: 200px;
 }
 
 .block {
@@ -23,16 +32,9 @@
     left: 50%;
     margin-left: -50px;
     margin-top: -50px;
+    z-index: 3;
 }
 
-.block2 {
-    width: 150px;
-    height: 150px;
-    background: #fff;
-    position: absolute;
-    top: 200px;
-    left: 30px;
-}
 
 header {
     background: red;
@@ -43,3 +45,27 @@ header {
     top: 0;
     z-index: 5;
 }
+
+/*p {
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+.field:hover p {
+    visibility: visible;
+    width: 700px;
+}*/
+
+button {
+    outline: none;
+}
+
+/*@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlabBold.eot'); !* IE9 Compat Modes *!
+    src: url('../fonts/RobotoSlabBold.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+    url('../fonts/RobotoSlabBold.woff2') format('woff2'), !* Super Modern Browsers *!
+    url('../fonts/RobotoSlabBold.woff') format('woff'), !* Pretty Modern Browsers *!
+    url('../fonts/RobotoSlabBold.ttf')  format('truetype'), !* Safari, Android, iOS *!
+    url('../fonts/RobotoSlabBold.svg#svgFontName') format('svg'); !* Legacy iOS *!
+}*/
