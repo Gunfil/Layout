@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15px;
+}
+
+div, p, input, button, form, input, textarea, button, a {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*  Header  */
+
+.logo {
+    display: block;
+}
+
+.header__menu {
+    float: left;
+}
+
+.header__menu-item {
+    float: left;
+    margin-right: 18px;
+    display: block;
+}
