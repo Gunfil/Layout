@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: Tahoma, Arial, sans-serif;
-    font-size: 15px;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-size: 14px;
 }
 
 div, p, input, button, form, input, textarea, button, a {
@@ -26,15 +26,37 @@ div, p, input, button, form, input, textarea, button, a {
 /*  Header  */
 
 .logo {
-    display: block;
+    width: 252px;
+    float: left;
+    margin: 10px 53px 15px 0;
 }
 
-.header__menu {
+.menu {
     float: left;
 }
 
-.header__menu-item {
+.menu__item {
     float: left;
     margin-right: 18px;
     display: block;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.header__menu {
+    margin-top: 30px;
+}
+
+.call__phone {
+    font-size: 21px;
+    font-weight: bold;
+    color: #2f1059;
 }
